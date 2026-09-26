@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Growth on the Vine has moved to growonthevine.com</title>
+<meta name="robots" content="noindex">
+<script>
+(function () {
+  var target = "https://growonthevine.com" + location.pathname + location.search + location.hash;
+  location.replace(target);
+  document.addEventListener("DOMContentLoaded", function () {
+    var c = document.getElementById("canon"); if (c) c.href = "https://growonthevine.com" + location.pathname + location.search;
+    var a = document.getElementById("link"); if (a) { a.href = target; a.textContent = target; }
+  });
+})();
+</script>
+<link id="canon" rel="canonical" href="https://growonthevine.com/">
+<meta http-equiv="refresh" content="0; url=https://growonthevine.com/">
+</head>
+<body>
+<p>Growth on the Vine has moved to <a id="link" href="https://growonthevine.com/">https://growonthevine.com/</a>.</p>
+</body>
+</html>
